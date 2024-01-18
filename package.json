@@ -1,0 +1,21 @@
+{
+  "name": "is5-job-enqueuer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-amqp-async": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
